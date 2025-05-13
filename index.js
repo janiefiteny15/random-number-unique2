@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const port = 3000;
 
-let availableNumbers = [1, 2, 3, 4, 5, 6];
+let availableNumbers = [1, 2, 3, 4, 5, 6]; // reset
 
 app.get('/', (req, res) => {
   if (availableNumbers.length === 0) {
