@@ -1,15 +1,12 @@
 {
-  "name": "nodejs",
+  "name": "random-one-time",
   "version": "1.0.0",
-  "description": "",
+  "description": "App random số từ 1 đến 6, không trùng",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "@types/node": "^22.13.11"
+    "express": "^4.18.2"
   }
 }
